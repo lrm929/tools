@@ -1,4 +1,6 @@
 # Server Manager
+![image](https://github.com/user-attachments/assets/e2b88438-3c00-4c57-98ed-0bceb8f82f6d)
+
 
 一个用于批量管理服务器的 Shell 脚本工具，支持批量执行命令、文件上传下载等功能。
 
