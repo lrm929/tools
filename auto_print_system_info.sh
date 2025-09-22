@@ -1,18 +1,4 @@
 #!/bin/bash
-#Date：2018-5-20 13:14:00
-#Author Blog:
-#	https://www.yangxingzhen.com
-#	https://www.i7ti.cn
-#Author WeChat：
-#	微信公众号：小柒博客
-#Author mirrors site:
-#	https://mirrors.yangxingzhen.com
-#About the Author
-#	BY：YangXingZhen
-#	Mail：xingzhen.yang@yangxingzhen.com
-#	QQ：675583110
-#Selete System info
-
 SYS_VERSION=$(cat /etc/redhat-release)
 HOSTNAME=$(hostname)
 IPADDR=$(ifconfig |awk '/cast/ {print $2}'|sed 's/addr://')
